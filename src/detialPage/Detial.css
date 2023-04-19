@@ -1,0 +1,115 @@
+
+
+.Maincontainer{
+
+    height: 100%;
+    
+    background-color: #ffece8;
+
+}
+
+.detialsdiv{
+ width: 55%;
+ height: 100%;
+ background-color: #fdbcb0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: inset 0px 0px 30px 30px #ffece8;
+ border-radius: 100px;
+}
+
+.detialscont{
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height:85%;
+    background-color: black;
+    
+}
+
+.centereddiv{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    display: flex;
+   border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: #9b1700;
+    box-shadow: inset 0px 0px 30px 30px #000;
+}
+
+.left{
+    width:55%;
+    height: 100%;
+    color: white;
+    margin-left: 12%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Pirata One';
+    font-weight: 100;
+}
+
+.leftonly{
+ width: 100%;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+
+}
+.right img{
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+    
+}
+.leftbox{
+    color: white;
+    font-size: 25px;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left1{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.leftandright{
+    font-size: 15px;
+    display: flex;
+}
+
+
+@media (min-width: 115px ) and (max-width : 915px)  {
+   .detialscont{
+    width: 100%;
+    height: 90%;
+   }
+   .detialsdiv{
+    width: 90%;
+   }
+    
+    }
+    @media (min-width: 830px ) and (max-width : 1220px)  {
+    }
+    
